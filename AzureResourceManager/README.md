@@ -19,23 +19,25 @@ On this page, choose the directory that you want to create your AAD application 
 
 ![](./images/AzureApplication.PNG "Azure Application")
 
-Type in the name of the application and select _"Web application and/or Web API"_ radio button
+Type in the name of the application and select __Web application and/or Web API__ radio button
 
 ![](./images/NewApplication.PNG "New Application")
 
-In the sign on url use : __http://login.windows.net__. The APP ID URI field can be any URI, as it is not applicable to this tutorial. 
+In the __sign-on url__ use: http://login.windows.net. The __APPID uri__ field can be any unique URI. 
 
 ![](./images/NewApplication2.PNG "New Application 2")
 
-Once the AAD application has been created, navigate to the _configure_ tab
+Once the AAD application has been created, navigate to the __configure__ tab
 
 Here we will need to configure the permissions the application has. For this tutorial, you will want to set the permissions as shown. 
 
 ![](./images/Permissions.PNG "Permissions")
 
-Next we need to generate a key, make sure to copy and save the key in a safe location, we will need this later. At this point it'd also be useful to make a note of the Client ID. 
+Next we need to generate a __key__, make sure to copy and save the key in a safe location, we will need this later. At this point it'd also be useful to make a note of the Client ID. 
 
-Include the following URL for the reply-URL: https://msmanaged-na.consent.azure-apim.net/redirect. 
+![](./images/ConfigureKeys.PNG "ConfigureKeys")
+
+Include the following URL for the __reply-URL__: https://msmanaged-na.consent.azure-apim.net/redirect. 
 
 ![](./images/RedirectUrl.PNG "RedirectURL")
 
@@ -43,17 +45,22 @@ Once you have successfully set up your AAD application, head on to the [PowerApp
 
 Navigate to the Connections tab, click on __Add a connection__ in the top right corner and then click on the __Add a Custom API__
 
+![](./images/CreateNewConnection.PNG "Create Custom API")
+
+![](./images/ConnectToCustomAPI.PNG "Create Custom API")
+
 Upload the ARM Swagger file, that you get from [here](./AzureResourceManager.json)
 
-![](./images/CreateCustom.PNG "Create Custom API ")
+![](./images/CreateCustom.PNG "Create Custom API")
 
 On the next screen, since our Swagger file was detected to use AAD authentication, we need to provide the correct configuration settings. 
 
 ![](./images/OAuthSettings.PNG "OAuth Settings")
 
-
 If everything was setup correctly you can use the ARM Custom API now in PowerApps.
+
+![](./images/CreatedCustomAPI.PNG "CustomAPI created")
 
 You can similary access any data that is exposed via RESTful APIs and authenticated using AAD OAuth2
 
-In case you have any questions or comments feel free to reach out to :
+In case you have any questions or comments feel free to reach out to us at logicappsio@microsoft.com
