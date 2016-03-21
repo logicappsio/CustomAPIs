@@ -37,7 +37,7 @@ Next we need to generate a key, make sure to copy and save the key in a safe loc
 
 Include the following URL for the reply-URL: https://msmanaged-na.consent.azure-apim.net/redirect. 
 
-![](./images/RedirectURL.PNG "RedirectURL")
+![](./images/RedirectUrl.PNG "RedirectURL")
 
 Once you have successfully set up your AAD application, head on to the [PowerApps Portal](https://web.powerapps.com)
 
