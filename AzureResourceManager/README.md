@@ -33,7 +33,7 @@ Here we will need to configure the permissions the application has. For this tut
 
 ![](./images/Permissions.PNG "Permissions")
 
-Next we need to generate a __key__, make sure to copy and save the key in a safe location, we will need this later. At this point it'd also be useful to make a note of the Client ID. 
+Next we need to generate a __key__, make sure to copy and save the key in a safe location, we will need this later. At this point it'd also be useful to make a note of the __Client ID__. 
 
 ![](./images/ConfigureKeys.PNG "ConfigureKeys")
 
@@ -41,15 +41,13 @@ Include the following URL for the __reply-URL__: https://msmanaged-na.consent.az
 
 ![](./images/RedirectUrl.PNG "RedirectURL")
 
-Once you have successfully set up your AAD application, head on to the [PowerApps Portal](https://web.powerapps.com)
-
-Navigate to the Connections tab, click on __Add a connection__ in the top right corner and then click on the __Add a Custom API__
+Once you have successfully set up your AAD application, head on to the [PowerApps Portal](https://web.powerapps.com) and navigate to the Connections tab, click on __Add a connection__ in the top right corner and then click on the __Add a Custom API__ button
 
 ![](./images/CreateNewConnection.PNG "Create Custom API")
 
 ![](./images/ConnectToCustomAPI.PNG "Create Custom API")
 
-Upload the ARM Swagger file, that you get from [here](./AzureResourceManager.json)
+Upload the ARM Swagger file, which is available [here](./AzureResourceManager.json)
 
 ![](./images/CreateCustom.PNG "Create Custom API")
 
@@ -57,10 +55,10 @@ On the next screen, since our Swagger file was detected to use AAD authenticatio
 
 ![](./images/OAuthSettings.PNG "OAuth Settings")
 
-If everything was setup correctly you can use the ARM Custom API now in PowerApps.
+If everything was setup correctly you can use the ARM Custom API by creating a connection and referencing it while building your PowerApp or Logic flow. 
 
 ![](./images/CreatedCustomAPI.PNG "CustomAPI created")
 
-You can similary access any data that is exposed via RESTful APIs and authenticated using AAD OAuth2
+You can similary access any data that is exposed via RESTful APIs and authenticated using AAD OAuth2.
 
 In case you have any questions or comments feel free to reach out to us at [logicappsio@microsoft.com](mailto:logicappsio@microsoft.com)
