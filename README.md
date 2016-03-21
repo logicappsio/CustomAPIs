@@ -6,21 +6,22 @@ The APIs that you register with PowerApps can be hosted anywhere, as long as a w
 #### Authentication
 
 You can use one of the two authentication mechanisms supported today: 
-* ##### Basic Authentication
-* ##### OAuth 2.0
+##### - Basic Authentication
+##### - OAuth 2.0
 *Support for API key authentication is coming soon.*
 
-Following is the list of all the supported OAuth 2.0 providers, with support for more comming soon
-* Azure Active Directory
-* Box
-* Dropbox
-* Facebook
-* Google
-* Instagram
-* OneDrive
-* SalesForce
-* Slack
-* Yammer
+Following is the list of all the supported OAuth 2.0 providers, with support for more coming soon
+
+- Azure Active Directory
+- Box
+- Dropbox
+- Facebook
+- Google
+- Instagram
+- OneDrive
+- SalesForce
+- Slack
+- Yammer
 
 You can learn more about how to specify the authentication type in your OpenAPI (Swagger) document [here](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#securityDefinitionsObject). 
 If your API endpoint allows for unauthenticated access, you should omit the securityDefintion object from the OpenAPI (Swagger) document.
