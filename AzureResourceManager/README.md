@@ -56,4 +56,4 @@ If everything was setup correctly you can use the ARM Custom API now in PowerApp
 
 You can similary access any data that is exposed via RESTful APIs and authenticated using AAD OAuth2
 
-In case you have any questions or comments feel free to reach out to :
+In case you have any questions or comments feel free to reach out to us at [logicappsio@microsoft.com](mailto:logicappsio@microsoft.com)
