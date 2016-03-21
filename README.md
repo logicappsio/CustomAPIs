@@ -27,5 +27,5 @@ You can learn more about how to specify the authentication type in your OpenAPI 
 If your API endpoint allows for unauthenticated access, you should omit the securityDefintion object from the OpenAPI (Swagger) document.
 
 ### Examples
-* [Azure](./AzureResourceManager/README.md)
+* [Azure Resource Manager](./AzureResourceManager/README.md)
 
