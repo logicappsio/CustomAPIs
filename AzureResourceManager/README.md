@@ -47,7 +47,7 @@ Once you have successfully set up your AAD application, head on to the [PowerApp
 
 ![](./images/ConnectToCustomAPI.PNG "Create Custom API")
 
-Upload the ARM Swagger file, which is available [here](./AzureResourceManager.json)
+Upload the ARM Swagger file, which is available [here](./AzureResourceManager.json).
 
 ![](./images/CreateCustom.PNG "Create Custom API")
 
