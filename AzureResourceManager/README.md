@@ -13,7 +13,7 @@ First off, we need to create an AAD application that will perform on behalf auth
 
 To create an AAD application - Log in to your [Azure subscription](https://management.windowsazure.com) and navigate to Azure active directory.
 
-![](./images/AzureAAD.png "Azure AAD")
+![](./images/AzureAAD.png?raw=true "Azure AAD")
 
 On this page, choose the directory that you want to create your AAD application in. Once you have selected the correct directory, go to the _Applications_ tab and click _Add_
 
