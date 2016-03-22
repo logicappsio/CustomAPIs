@@ -50,7 +50,7 @@ Users can also share custom APIs with each other. Once you have created a custom
 ### Quota and throttling
 
 - You can create upto 5 Custom APIs in a given PowerApps account. Custom APIs shared with you don't count against this quota.
-- For each connection create on a Custom API, users are allowed to make upto 500 requests per minute.
+- For each connection created on a Custom API, users are allowed to make upto 500 requests per minute.
 - Keep in mind that deleting a Custom API will also delete all the connections created on it. 
 
 In case you have any questions or comments feel free to reach out to us at [logicappsio@microsoft.com](mailto:logicappsio@microsoft.com)
