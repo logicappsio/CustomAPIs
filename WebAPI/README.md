@@ -14,9 +14,7 @@ This tutorial aims to teach you how to create a WebAPI and host it on Azure Weba
 
 2. On the next screen select the web API template. 
 >[Important] Make sure you set authentication to "No Authentication"
-
 ![](./images/NoAuth.PNG "No Authorization")
-
 3. Once your project has been created, you will need to build the web API for your resources. For this tutorial, we will not go in to the specifics of building a web API
 4. The next step for us is to generate a swagger file for the web API. You can do this easily by bringing up the __Package Manager Console__ and installing __Swashbuckle__
 ![](./images/Swashbuckle-console.PNG "Swashbuckle console")
