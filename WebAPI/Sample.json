@@ -2,7 +2,12 @@
   "swagger": "2.0",
   "info": {
     "version": "v1",
-    "title": "MyWebAPI"
+    "title": "Sample",
+    "description":"Sample swagger for a C# webapi template",
+    "contact": {
+    "name": "Sunay Vaishnav",
+    "email": "sunayv@microsoft.com"
+    }
   },
   "host": "",             //Enter your Website url here. Don't provide schemes. eg: mywebapi.mywebsite.com
   "schemes": [
