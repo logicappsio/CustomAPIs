@@ -33,6 +33,10 @@ Here we will need to configure the permissions the application has. For this tut
 
 ![](./images/Permissions.PNG "Permissions")
 
+Make sure you delegate the necessary permissions for your application. 
+
+![](./images/Permissions_2.PNG "Permissions_2")
+
 Next we need to generate a __key__, make sure to copy and save the key in a safe location, we will need this later. At this point it'd also be useful to make a note of the __Client ID__. 
 
 ![](./images/ConfigureKeys.PNG "ConfigureKeys")
