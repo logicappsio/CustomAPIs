@@ -25,9 +25,9 @@ This tutorial aims to teach you how to create a WebAPI and host it on Azure Weba
 
 6. Once you are comfortable with your web API, you will need to publish it to the Azure cloud. You can do this by going to **BUILD** > **PUBLISH** in visual studio.
 7. Extract the swagger json by navigating to ***https://\<azure-webapp-url\>/swagger/docs/v1***
-
 >[ATTENTION] A swagger document with duplicate operationid(s) is invalid. If you are using the sample C# template, the operation-id "Values_Get" is repeated twice. Change one instance to "Value_Get"
 
+8. You can download the swagger used in this tutorial [here](./Sample.json)
 
 ####Step 2: Setting up AAD authentication. 
 
