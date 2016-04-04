@@ -54,4 +54,4 @@ Users can also share custom APIs with each other. Once you have created a custom
 - For each connection created on a Custom API, users are allowed to make up to 500 requests per minute.
 - Keep in mind that deleting a Custom API will also delete all the connections created on it. 
 
-In case you have any questions or comments feel free to reach out to us at [logicappsio@microsoft.com](mailto:logicappsio@microsoft.com)
+In case you have any questions or comments feel free to reach out to us at [customapishelp@microsoft.com](mailto:customapishelp@microsoft.com)

@@ -89,4 +89,4 @@ This should setup AAD authentication for you webapp.
 5. Hit create and try creating a connection on the Custom API. If everything was setup correctly, you should be able to sign-in successfully. 
 
 
-In case you have any questions or comments feel free to reach out to us at [logicappsio@microsoft.com](mailto:logicappsio@microsoft.com)
+In case you have any questions or comments feel free to reach out to us at [customapishelp@microsoft.com](mailto:customapishelp@microsoft.com)
