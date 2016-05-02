@@ -43,7 +43,10 @@ Here you can upload your Swagger document and icon for the CustomAPI. If you are
 You can learn more about how to customize your Swagger document to work with PowerApps and Logic flows [here](./HowToSwagger.md).
 
 ### Sharing a Custom API
-Users can also share custom APIs with each other. Once you have created a custom API, on the Connections tab under the Manage dropdown, click on __Add a connection__ in the top right corner and then click on the Custom tab. Go the details page of the Custom API you would like to share with other users, and click on the share tab as highlighted in the image below. You can share the custom API with varying level of permissions with other users. Don't forget to hit save once you have finished adding or removing users for the changes to take place. 
+Users can also share custom APIs with each other. Once you have created a custom API, on the Connections tab under the Manage dropdown, click on __Add a connection__ in the top right corner and then click on the Custom tab. 
+Go the details page of the Custom API you would like to share with other users, and click on the share tab as highlighted in the image below. 
+You can share the custom API with varying level of permissions with other users. Don't forget to hit save once you have finished adding or removing users for the changes to take place.
+
 *Note: You can share custom APIs with other users in your organization only.*
 
 ![](./common/images/ShareCustomAPI.PNG "Share Custom API")
