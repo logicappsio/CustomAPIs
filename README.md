@@ -1,6 +1,6 @@
-## How to use Custom APIs with PowerApps and Logic Flows
+## How to use Custom APIs with PowerApps and Microsoft Flow
 
-Custom APIs are simply any RESTful APIs that you can use bring in and use with your PowerApps and Logic Flows.
+Custom APIs are simply any RESTful APIs that you can use bring in and use with your PowerApps and Microsoft Flow
 The APIs that you register with PowerApps can be hosted anywhere, as long as a well-documented specification that conforms to the [OpenAPI](https://openapis.org/specification) standard is available.
 
 #### Authentication
@@ -32,7 +32,7 @@ If your API endpoint allows for unauthenticated access, you should omit the secu
 
 ### How to create a Custom API
 
-Head on over to the PowerApps [web portal](https://web.powerapps.com) and navigate to the __Connections__ tab, click on __Add a connection__ in the top right corner and then click on the __Add a Custom API__ button.
+Head on over to the PowerApps [web portal](https://web.powerapps.com) and navigate to the __Connections__ tab under the Manage dropdown, click on __Add a connection__ in the top right corner and then click on the Custom tab and then __New Custom API__ button, in the top right corner. 
 
 ![](./common/images/CreateNewConnection.PNG "Create Custom API")
 
@@ -43,7 +43,7 @@ Here you can upload your Swagger document and icon for the CustomAPI. If you are
 You can learn more about how to customize your Swagger document to work with PowerApps and Logic flows [here](./HowToSwagger.md).
 
 ### Sharing a Custom API
-Users can also share custom APIs with each other. Once you have created a custom API, on the Connections tab, click on the Custom API tab and click on the share icon as highlighted in the image below.
+Users can also share custom APIs with each other. Once you have created a custom API, on the Connections tab under the Manage dropdown, click on __Add a connection__ in the top right corner and then click on the Custom tab. Go the details page of the Custom API you would like to share with other users, and click on the share tab as highlighted in the image below. You can share the custom API with varying level of permissions with other users. Don't forget to hit save once you have finished adding or removing users for the changes to take place. 
 *Note: You can share custom APIs with other users in your organization only.*
 
 ![](./common/images/ShareCustomAPI.PNG "Share Custom API")
