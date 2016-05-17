@@ -9,7 +9,7 @@
     "email": "sunayv@microsoft.com"
     }
   },
-  "host": "",             //Enter your Website url here. Don't provide schemes. eg: mywebapi.mywebsite.com
+  "host": "mywebapi.mywebsite.com",
   "schemes": [
     "https"                      
   ],
@@ -18,7 +18,7 @@
       "type": "oauth2",
       "flow": "implicit",
       "authorizationUrl": "https://login.windows.net/common/oauth2/authorize",
-      "scopes": []
+      "scopes": {}
     }
   },
   "paths": {
