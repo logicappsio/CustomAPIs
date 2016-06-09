@@ -53,42 +53,32 @@
           "200": {
             "description": "OK",
             "schema": {
-              "id": "/",
               "type": "object",
               "properties": {
                 "value": {
-                  "id": "subscriptions",
                   "type": "array",
                   "items": {
-                    "id": "subscription",
                     "type": "object",
                     "properties": {
                       "id": {
-                        "id": "id",
                         "type": "string"
                       },
                       "subscriptionId": {
-                        "id": "subscriptionId",
                         "type": "string"
                       },
                       "displayName": {
-                        "id": "displayName",
                         "type": "string"
                       },
                       "state": {
-                        "id": "state",
                         "type": "string"
                       },
                       "subscriptionPolicies": {
-                        "id": "subscriptionPolicies",
                         "type": "object",
                         "properties": {
                           "locationPlacementId": {
-                            "id": "locationPlacementId",
                             "type": "string"
                           },
                           "quotaId": {
-                            "id": "quotaId",
                             "type": "string"
                           }
                         }
