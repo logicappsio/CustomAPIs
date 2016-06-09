@@ -15,12 +15,18 @@ Following is the list of all the supported OAuth 2.0 providers, with support for
 - Azure Active Directory
 - Box
 - Dropbox
+- DocuSign
 - Facebook
 - Google
 - Instagram
 - OneDrive
+- Outlook
+- Slack
+- Zendesk
+- Microsoft Live ID
 - SalesForce
 - Slack
+- Stripe
 - Yammer
 
 You can learn more about how to specify the authentication type in your OpenAPI (Swagger) document [here](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#securityDefinitionsObject). 
