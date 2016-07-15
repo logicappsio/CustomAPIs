@@ -79,6 +79,8 @@ This should setup AAD authentication for you webapp.
     }
   },
 ```
+>[ATTENTION] Please make sure your host doesn't contain the scheme. So for example, if the host url of your website is: https://foobar.azurewebsites.net/, your host value should be "foobar.azurewebsites.net"
+
 2. Navigate to the PowerApps [web portal](https://web.powerapps.com) and launch the create custom API wizard. If you don't know how, [read this first](https://github.com/logicappsio/CustomAPIs#how-to-create-a-custom-API).
 3. Once you have uploaded your Swagger, the wizard will auto-detect that you are using AAD authentication for your webAPI.
 4. Configure the AAD authentication for your custom API as follows:
