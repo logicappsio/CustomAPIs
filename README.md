@@ -1,6 +1,6 @@
 ## How to use Custom APIs with PowerApps and Microsoft Flow
 
-Custom APIs are simply any RESTful APIs that you can use bring in and use with your PowerApps and Microsoft Flow.
+Custom APIs are simply any RESTful APIs that you can bring in and use with your PowerApps and Microsoft Flow.
 The APIs that you register with PowerApps can be hosted anywhere, as long as a well-documented specification that conforms to the [OpenAPI](https://openapis.org/specification) standard is available.
 
 #### Authentication
