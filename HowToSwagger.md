@@ -79,13 +79,16 @@ Example:
   "name": "item",
   "in": "body",
   "required": true,
-  "x-ms-dynamic-schema": {
-    "operationId": "Metadata_GetTableSchema",
-    "parameters": {
-      "tablename": "{table}"              // the value that the user has selected from the above parameter
-    },
-    "value-path": "Schema"                // the field that contains the JSON schema
-  }
+  "schema": {
+  "type":"object",
+    "x-ms-dynamic-schema": {
+    	"operationId": "Metadata_GetTableSchema",
+     	"parameters": {
+      		"tablename": "{table}"              // the value that the user has selected from the above parameter
+    	},
+    "value-path": "Schema"               // the field that contains the JSON schema
+   }
+ }
 },
 ```
 
