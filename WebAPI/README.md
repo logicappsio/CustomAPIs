@@ -73,7 +73,7 @@ This should setup AAD authentication for you webapp.
   "securityDefinitions": {
     "AAD": {
       "type": "oauth2",
-      "flow": "implicit",
+      "flow": "accessCode",
       "authorizationUrl": "https://login.windows.net/common/oauth2/authorize",
       "scopes": {}
     }
